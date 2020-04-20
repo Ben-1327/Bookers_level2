@@ -1,0 +1,40 @@
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #222222;
+}
+
+.container{
+  max-width: 70%;
+}
+
+.title{
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+  position: absolute;
+  left: 100px;
+}
+
+.nav{
+  list-style: none;
+  font-size: 15px;
+  position: absolute;
+  top: 15px;
+  right: 100px;
+  z-index: 1;
+}
+
+.nav-item{
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.nav-item a{
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+.nav-item a:hover{
+  color: white;
+}

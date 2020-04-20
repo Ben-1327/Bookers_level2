@@ -1,0 +1,24 @@
+.cf:before,
+.cf:after{
+    content: "";
+    display: table;
+}
+.cf:after{ clear: both; }
+
+body{
+  text-align: center;
+}
+
+.text-contents h2{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 34px;
+}
+
+.sub-text{
+  margin-bottom: 20px;
+}
+
+.comment{
+  margin-bottom: 20px;
+}
