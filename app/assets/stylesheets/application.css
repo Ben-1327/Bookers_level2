@@ -20,3 +20,40 @@
   padding: 0;
   box-sizing:border-box;
 }
+
+/* registrations_new and sessions_new */
+
+.form{
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+.top-text{
+  margin-bottom: 10px;
+}
+
+.label{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.text_field{
+  width: 152px;
+  height: 26px;
+}
+
+.actions{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-submit{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  width: 74px;
+  height: 34px;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
