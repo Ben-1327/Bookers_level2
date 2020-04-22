@@ -5,7 +5,7 @@
 
 <body>
   <div class="form">
-    <h2>Log in</h2>
+    <h2 class="top-text">Log in</h2>
 
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="field">
@@ -31,5 +31,6 @@
     <% end %>
 
     <%= render "devise/shared/links" %>
-  </div>  
+  </div>
+  <p class="Co-text">CopyRight Infratop.inc</p>
 </body>

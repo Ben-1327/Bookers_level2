@@ -57,3 +57,9 @@
   padding: 6px 12px;
   border-radius: 5px;
 }
+
+.Co-text{
+  position: absolute;
+  top: 130px;
+  right: 400px;
+}
