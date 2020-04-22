@@ -1,0 +1,87 @@
+.col-xs-4{
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  width: 25%;
+}
+
+.col-xs-8{
+  position: absolute;
+  top: 70px;
+  left: 600px;
+  width: 70%;
+}
+
+.user-info-text th{
+  font-size: 12px;
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table{
+  border-collapse:collapse;
+  display: table;
+	table-layout: fixed;
+}
+
+.title-tr{
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+tr td{
+  border-top: 1px solid #ddd;
+}
+
+tr td:nth-child(1){
+  width: 250px;
+}
+
+tr td:nth-child(2){
+  width: 200px;
+}
+
+tr td:nth-child(3){
+  width: 300px;
+}
+
+.img-for-book{
+  width: 40px;
+  height: 40px;
+}
+
+.btn-edit{
+  width: 50%;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #666;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.pull-right{
+  text-decoration: none;
+  color: #666;
+}
+
+.form-title, .form-opinion{
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.form-title{
+  height: 26px;
+}
+
+.form-opinion{
+  height: 46px;
+}
+
+.btn-submit{
+  background-color:#337ab7;
+  width: 50%;
+  text-align: center;
+}
