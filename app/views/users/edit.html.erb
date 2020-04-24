@@ -1,0 +1,25 @@
+<%= render 'homes/list' %>
+<%= stylesheet_link_tag 'users_edit' %>
+
+<div class="main-contents">
+  <h2 class="top-text">User info</h2>
+  <%= form_for(@user) do |f| %>
+  <div class="form-group has-icon">
+    <label class="control-label sr-only" for="inputEmail">Name</label>
+    <%= f.text_field :name, autofocus: true, class:"form-control", id:"inputEmail", placeholder:"名前"%>
+    <span class="fa fa-user form-control-icon" aria-hidden="true"></span>
+  </div>
+  <div class="form-group has-icon">
+    <label class="control-label sr-only" for="inputEmail">Image</label>
+    <%= f.attachment_field :profile_image, placeholder: "プロフィール画像", class: "user-edit-form" %>
+  </div>
+  <div class="form-group has-icon">
+    <label class="control-label sr-only" for="inputEmail">Introduction</label>
+    <%= f.text_area :introduction, autofocus: true, class:"form-control-intro", id:"inputEmail"%>
+    <span class="fa fa-user form-control-icon" aria-hidden="true"></span>
+  </div>
+  <% if @user.id == current_user.id %>
+    <%= f.submit "Update User", class:"btn btn-lg btn-block btn-base-1 mt-20" %>
+  <% end %>
+  <% end %>
+</div>

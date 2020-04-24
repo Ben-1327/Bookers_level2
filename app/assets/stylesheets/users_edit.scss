@@ -1,0 +1,29 @@
+.main-contents{
+  position: absolute;
+  top: 70px;
+  left: 15%;
+}
+
+.top-text{
+  font-size: 36px;
+}
+
+.control-label{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.control-label:nth-child(3){
+  height: 60px;
+}
+
+.form-control{
+  height: 26px;
+  width: 150px;
+}
+
+.form-control-intro{
+  height: 50px;
+  width: 160px;
+}

@@ -30,6 +30,7 @@
 }
 
 table{
+  width: 70%;
   border-collapse:collapse;
   display: table;
 	table-layout: fixed;
@@ -44,16 +45,28 @@ tr td{
   border-top: 1px solid #ddd;
 }
 
-.title-tr th:nth-child(1){
-  width: 250px;
+.title-tr td:nth-child(1){
+  width: 10%;
 }
 
-.title-tr th:nth-child(2){
-  width: 200px;
+.title-tr td:nth-child(2){
+  width: 20%;
 }
 
-.title-tr th:nth-child(3){
-  width: 300px;
+.title-tr td:nth-child(3){
+  width: 25%;
+}
+
+.title-tr td:nth-child(4){
+  width: 35%;
+}
+
+.title-tr td:nth-child(5){
+  width: 5%;
+}
+
+.title-tr td:nth-child(6){
+  width: 5%;
 }
 
 .img-for-book{
@@ -72,6 +85,7 @@ tr td{
 }
 
 .pull-right{
+	display: block;
   text-decoration: none;
   color: #666;
 }
@@ -93,4 +107,26 @@ tr td{
   background-color:#337ab7;
   width: 50%;
   text-align: center;
+}
+
+.btn-book-edit{
+  color: white;
+  background-color: #5cb85c;
+  font-size: 15px;
+  text-decoration: none;
+  width: 74px;
+  height: 34px;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.btn-book-destroy{
+  color: white;
+  background-color: #d9534f;;
+  font-size: 15px;
+  text-decoration: none;
+  width: 74px;
+  height: 34px;
+  padding: 6px 12px;
+  border-radius: 5px;
 }
