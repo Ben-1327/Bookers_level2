@@ -1,6 +1,13 @@
 <%= render 'homes/list' %>
 <%= stylesheet_link_tag 'books_edit' %>
 
+<!-- サクセスメッセージ -->
+<% if flash[:notice] %>
+    <div class="flash">
+      <%= flash[:notice] %>
+    </div>
+  <% end %>
+
 <div class="main-contents">
   <h2 class="top-text">Editing Book</h2>
   <%= form_for(@book) do |f| %>
@@ -23,4 +30,8 @@
     <%= f.submit "Update Book", class:"btn-submit" %>
   <% end %>
   <% end %>
+  <p>
+    <%= link_to "Show", book_path(@book) %>
+    <%= link_to "Back", books_path %>
+  </p>
 </div>

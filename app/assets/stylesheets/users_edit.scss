@@ -19,11 +19,19 @@
 }
 
 .form-control{
+  font-size: 14px;
   height: 26px;
   width: 150px;
 }
 
 .form-control-intro{
+  font-size: 14px;
   height: 50px;
   width: 160px;
+}
+
+.btn-submit{
+  background-color: #5cb85c;
+  width: 70%;
+  margin-top: 10px;
 }
