@@ -7,18 +7,8 @@
 	clear: both;
 }
 
-.col-xs-4{
-  position: absolute;
-  top: 70px;
-  left: 200px;
-  width: 25%;
-}
-
-.col-xs-8{
-  position: absolute;
-  top: 70px;
-  left: 600px;
-  width: 70%;
+.user-info-text{
+	width: 100%;
 }
 
 .user-info-text th{
@@ -30,13 +20,12 @@
 }
 
 table{
-  width: 70%;
   border-collapse:collapse;
   display: table;
 	table-layout: fixed;
 }
 
-.title-tr{
+.title-tr1{
   text-align: left;
   border-bottom: 2px solid #ddd;
 }
@@ -46,27 +35,27 @@ tr td{
 }
 
 .title-tr td:nth-child(1){
-  width: 10%;
+  width: 50px;
 }
 
 .title-tr td:nth-child(2){
-  width: 20%;
+  width: 100px;
 }
 
 .title-tr td:nth-child(3){
-  width: 25%;
+  width: 200px;
 }
 
 .title-tr td:nth-child(4){
-  width: 35%;
+  width: 250px;
 }
 
 .title-tr td:nth-child(5){
-  width: 5%;
+  width: 50px;
 }
 
 .title-tr td:nth-child(6){
-  width: 5%;
+  width: 50px;
 }
 
 .img-for-book{
@@ -75,7 +64,7 @@ tr td{
 }
 
 .btn-edit{
-  width: 50%;
+  width: 100%;
   margin: 10px 0;
   padding: 5px;
   text-align: center;
@@ -91,7 +80,7 @@ tr td{
 }
 
 .form-title, .form-opinion{
-  width: 50%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -105,7 +94,7 @@ tr td{
 
 .btn-submit{
   background-color:#337ab7;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 

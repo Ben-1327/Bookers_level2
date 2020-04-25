@@ -14,7 +14,6 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
-
 *{
   margin: 0;
   padding: 0;
@@ -22,6 +21,10 @@
 }
 
 /* registrations_new and sessions_new */
+
+.container{
+  max-width: 80%;
+}
 
 .form{
   position: absolute;

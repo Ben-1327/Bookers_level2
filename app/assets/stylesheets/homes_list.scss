@@ -12,25 +12,18 @@ header{
   left: 300px;
 }
 
+
+
 .nav{
   list-style: none;
   font-size: 15px;
-  position: absolute;
-  top: 15px;
-  right: 300px;
-  z-index: 1;
 }
 
-.nav-item{
-  display: inline-block;
-  margin-right: 35px;
-}
-
-.nav-item a{
+.glyphicon{
   color: #9d9d9d;
   text-decoration: none;
 }
 
-.nav-item a:hover{
+.glyphicon:hover{
   color: white;
 }
