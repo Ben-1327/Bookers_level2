@@ -3,20 +3,20 @@
   <%= stylesheet_link_tag 'sessions_new' %>
 </head>
 
-<body>
   <div class="form">
     <h2 class="top-text">Log in</h2>
 
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="field">
-        <%= f.label :name, class:"label" %><br />
+        <p>Name</p>
         <%= f.text_field :name, autofocus: true, autocomplete: "name", class:"text_field" %>
       </div>
 
       <div class="field">
-        <%= f.label :password, class:"label" %><br />
+        <p>password</p>
         <%= f.password_field :password, autocomplete: "current-password", class:"text_field" %>
       </div>
+
 
       <% if devise_mapping.rememberable? %>
         <div class="field">
@@ -33,4 +33,3 @@
     <%= render "devise/shared/links" %>
   </div>
   <p class="Co-text">CopyRight Infratop.inc</p>
-</body>

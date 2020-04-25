@@ -2,6 +2,12 @@
   <%= stylesheet_link_tag 'homes_index' %>
 
   <div class="text-contents cf">
+    <!-- サクセスメッセージ -->
+  <% if flash[:notice] %>
+      <div class="flash">
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
     <h2>welcome to
       <svg class="bi bi-book" width="1em" height="1em" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path

@@ -1,4 +1,8 @@
 class UsersController < ApplicationController
+
+  before_action :authenticate_user!
+  before_action :current_user?, only: [:edit]
+
   def index
     @book = Book.new
     @users = User.all
@@ -27,6 +31,12 @@ class UsersController < ApplicationController
 
   def destroy
 
+  end
+
+  def current_user?
+    unless  User.find(params[:id]) == current_user
+      redirect_to user_path(current_user)
+    end
   end
 
   private

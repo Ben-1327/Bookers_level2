@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # トップページ設定
   root :to => 'homes#index'
 
-  get 'homes/about' => 'homes#about'
+  get 'home/about' => 'homes#about'
 
   resources :users
   resources :books
